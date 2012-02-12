@@ -9,3 +9,6 @@ Write eax@eax.dk
 Licensed under the MIT License.
 
 Have fun!
+
+PLEASE NOTE! You need jquery.jsonp for this to work:
+http://code.google.com/p/jquery-jsonp/
