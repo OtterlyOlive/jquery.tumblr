@@ -8,7 +8,7 @@ $(document).ready(function (){
 	var url = "http://"+blog_name+".tumblr.com/api/read/json?"; 
 	
 	var oauth = "YOUROAUTHKEY";
-	var new_url = "http://api.tumblr.com/v2/blog/eaxbin.tumblr.com/posts?api_key="+oauth;
+	var new_url = "http://api.tumblr.com/v2/blog/"+blog_name+".tumblr.com/posts?api_key="+oauth;
 	
 	function empty_holder(){
 		$('#headline').empty();
